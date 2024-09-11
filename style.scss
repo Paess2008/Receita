@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+ul{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(190, 115, 50);
+}
+
+h1{
+    font-family: "Montagu Slab", serif;
+    color: rgba(255, 166, 0, 0.578)
+}
+
+main{
+    // 1 valor será aplicado para os 4 lados
+    // 2 valores serão aplicados para 
+    // primeiro valor top, bottom, seguindo para os lados
+    padding: 20px 10px 80px 0;
+    // top, left, bottom, right
+    padding-left: 20px;
+}
